@@ -28,7 +28,7 @@ function update( e ) {
 	this.rotateOnAxis( spinAxis, spinRate * deltaSeconds )
 }
 ```
-## Viewing
+## Using
 1. You can run this project as a web server and the index page will be a working animation.
 2. You can also import the app.json file into the [threejs editor](https://threejs.org/editor/), I would reccomend this if you wanted to change the lighting / texture or anything like that
 3. If you don't like js and/or are transfering this to another language, take the above as psuedocode and create/find your own implementation. Here is a [helpful explanation of rotating around an axis](https://en.wikipedia.org/wiki/Rotation_matrix#Rotation_matrix_from_axis_and_angle).
